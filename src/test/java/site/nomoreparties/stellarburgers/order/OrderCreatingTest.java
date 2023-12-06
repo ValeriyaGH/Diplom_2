@@ -3,6 +3,7 @@ import static org.apache.http.HttpStatus.*;
 
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
+import org.junit.After;
 import org.junit.Before;
 import static org.hamcrest.CoreMatchers.is;
 import org.junit.Test;
@@ -53,5 +54,8 @@ public void setUp(){
     ValidatableResponse validatableResponse = orderClient.createOrderWithoutAuth(orderWithIngredients);
     validatableResponse.assertThat().statusCode(SC_UNAUTHORIZED).body("success", is(false));
 }
-
+@After
+    public void clean(){
+    userClient.deleteUser(accessToken);
+}
 }
