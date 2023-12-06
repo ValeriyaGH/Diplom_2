@@ -1,7 +1,5 @@
 package site.nomoreparties.stellarburgers.order;
-
 import static io.restassured.RestAssured.given;
-
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
 import site.nomoreparties.stellarburgers.Confiq;

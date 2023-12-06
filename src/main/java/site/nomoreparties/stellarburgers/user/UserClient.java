@@ -6,7 +6,6 @@ import org.junit.Before;
 import site.nomoreparties.stellarburgers.Confiq;
 
 import static io.restassured.RestAssured.given;
-
 public class UserClient {
     NewUser newUser;
     CreatedUser createdUser;

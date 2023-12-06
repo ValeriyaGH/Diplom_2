@@ -1,7 +1,5 @@
 package site.nomoreparties.stellarburgers.order;
-
 import static org.apache.http.HttpStatus.*;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;

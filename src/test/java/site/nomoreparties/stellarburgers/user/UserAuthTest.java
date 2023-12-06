@@ -1,8 +1,6 @@
 package site.nomoreparties.stellarburgers.user;
-
 import static org.apache.http.HttpStatus.*;
 import static org.hamcrest.CoreMatchers.is;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;

@@ -1,5 +1,4 @@
 package site.nomoreparties.stellarburgers.user;
-
 public class CreatedUser {
     private String email;
 
